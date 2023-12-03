@@ -1,0 +1,59 @@
+body{
+    background: rgb(148, 184, 199);
+}
+.Screen{
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+    
+    color: rgb(239, 233, 244);
+}
+
+#display{
+    font-size: 3em;
+}
+
+button{
+    padding: 1em;
+    font-size: 1.5em;
+    border-radius: 4em;
+    margin: 0.4em;
+    border-width: 0em;
+    background: rgb(88, 99, 248);
+    color: rgb(239, 233, 244);
+}
+
+button:hover{
+    background: rgb(39, 65, 126);
+}
+
+#clear{
+    font-size: 0.9em;
+    padding: 0.4em;
+    margin: 4em;
+    background: rgb(112, 174, 110);
+}
+
+#clear:hover{
+    background: rgb(81, 135, 103);
+}
+
+.specal{
+    background: rgb(205, 83, 59);
+}
+
+.specal:hover{
+    background: rgb(129, 49, 31);
+}
+
+.calcultor{
+    background: rgb(23, 29, 28);
+    color: rgb(239, 233, 244);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 36em;
+    margin-left: 36em;
+    padding-bottom: 1.2em;
+    border-radius: 2em;
+}
