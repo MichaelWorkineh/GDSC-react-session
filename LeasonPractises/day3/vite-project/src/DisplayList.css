@@ -1,0 +1,23 @@
+img{
+    border-radius: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 30em;
+    object-fit: cover; 
+    object-position: top left;
+}
+
+.comp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #323131;
+    margin: 1.5em;
+    border-radius: 2.5em;
+}
+
+.comp h2{
+    margin-right: 2em;
+}

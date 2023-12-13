@@ -1,0 +1,5 @@
+img{
+    border-radius: 30em;
+    object-fit: cover; 
+    object-position: top left;
+}
