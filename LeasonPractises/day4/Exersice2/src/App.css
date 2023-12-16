@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.card{
+  padding: 1em;
+  background: linear-gradient(rgb(95, 89, 101),rgb(61, 86, 101));
+  border-radius: 0em 0em 1em 1em;
+  color: white;
+}
+
+.card strong{
+  font-size: xx-large;
+}
+
+.card button{
+  margin-top: 1em;
+}
+.bigCard{
+  border-radius: 1em;
+  padding: 1em;
+  background: rgb(19, 18, 18)
+}

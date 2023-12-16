@@ -1,0 +1,23 @@
+input{
+    margin: 1em;
+    padding: 1em;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+  }
+
+  #submit{
+    padding: 0.5em;
+  }
+
+  form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  textarea{
+    padding: 2em;
+    border-radius: 1em;
+    border-style: solid;
+    border-color: rgba(240, 248, 255, 0);
+  }
