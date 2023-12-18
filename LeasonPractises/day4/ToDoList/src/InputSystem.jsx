@@ -14,9 +14,12 @@ export default function InputSystem( updateArray){
     return(
         <>
             <form onSubmit={addToList}>
-                <input type="time" value={time} onChange={(e)=>{setTime(e.target.value)}}></input>
-                <textarea  value={plan} onChange={(e)=>{setPlan(e.target.value)}} rows = '10' cols = '40'></textarea>
-                <input type="submit" id='submit'/>
+                
+                <textarea  value={plan} onChange={(e)=>{setPlan(e.target.value)}} rows = '10' cols = '40' className='plan'></textarea>
+                <div>
+                    <input type="time" value={time} onChange={(e)=>{setTime(e.target.value)}} className='time'></input>
+                    <input type="submit" id='submit' className='submit'/>
+                </div>
             </form>
         </>
     )

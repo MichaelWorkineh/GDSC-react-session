@@ -1,13 +1,9 @@
-export default function ListDisplay(value, inputFun){
-    function handleClick(){
-        inputFun.func(value)
-        alert (' is done')
-    }
+import './ListDisplay.css'
+export default function ListDisplay(value){
     return(
         <tr>
             <td>{value.value.time}</td>
             <td>{value.value.plan}</td>
-            <td><input type="checkbox" onClick={handleClick}></input></td>
         </tr>
         )
 }
