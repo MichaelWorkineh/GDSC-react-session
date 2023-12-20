@@ -41,12 +41,15 @@ button{
   position: absolute;
   bottom: 2rem;
   right: 1em;
-  border-radius: 0.5em;
+  border-radius: 1rem;
   border-style: none;
+  padding: 0.5rem;
+  background: orangered;
 }
 
 input{
   border-radius: 1em;
   padding: 0.5em;
   border-style: none;
+  text-align: center;
 }

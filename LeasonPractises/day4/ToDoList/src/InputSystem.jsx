@@ -15,9 +15,9 @@ export default function InputSystem( updateArray){
         <>
             <form onSubmit={addToList}>
                 
-                <textarea  value={plan} onChange={(e)=>{setPlan(e.target.value)}} rows = '10' cols = '40' className='plan'></textarea>
+                <textarea  value={plan} onChange={(e)=>{setPlan(e.target.value)}} rows = '10' cols = '40' className='plan' placeholder='plan' required></textarea>
                 <div>
-                    <input type="time" value={time} onChange={(e)=>{setTime(e.target.value)}} className='time'></input>
+                    <input type="time" value={time} onChange={(e)=>{setTime(e.target.value)}} className='time' placeholder='time' required></input>
                     <input type="submit" id='submit' className='submit'/>
                 </div>
             </form>

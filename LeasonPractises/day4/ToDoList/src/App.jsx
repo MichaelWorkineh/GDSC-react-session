@@ -19,13 +19,17 @@ function App() {
     <>
       <h1>To Do List</h1>
       <div className='content'>
-        <table  width={500}>
+        <table>
           <thead>
-            <th className='xl'>Time</th>
-            <th className='yl'>Plan</th>
+            <th className='xl'> <td width={100}> Time </td></th>
+            <th className='yl'> <td width={300}> Plan </td></th>
           </thead>
 
           {ToDoList.map(ToDoList=>(<ListDisplay value = {ToDoList} />))}
+          <tfoot>
+            <tf className="q"></tf>
+            <tf className ="w"></tf>
+          </tfoot>
         </table>
         {console.log(ToDoList)}
         <InputSystem func = {updateArray}/>

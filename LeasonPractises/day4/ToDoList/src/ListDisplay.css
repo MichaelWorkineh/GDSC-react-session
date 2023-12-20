@@ -1,15 +1,18 @@
+*{
+    box-sizing: border-box;
+}
 thead{
     background-color: #131313;
 }
-th{
-    padding: 1em;
-}
+
 .xl {
     border-radius: 1em 0em 0em 0em;
 }
+
 .yl {
     border-radius: 0em 1em 0em 0em;
 }
+
 tr{
     background-color:  #393939;
     border-radius: 2em;
@@ -17,4 +20,11 @@ tr{
 
 td{
     padding: 0.5em;
+}
+
+.q{
+    border-radius: 0em 0em 1em 0em;
+}
+.w{
+    border-radius: 0em 0em 0em 1em;
 }

@@ -33,4 +33,6 @@ input{
     border-radius: 2em 2em 0em 2em;
     border-style: solid;
     border-color: rgba(240, 248, 255, 0);
+    background: linear-gradient(rgba(1));
+    resize: none;
   }
