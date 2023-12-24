@@ -1,0 +1,50 @@
+.Note{
+    background-color: rgb(66, 156, 159);
+    width: 15rem;
+    height: 16rem;
+    padding: 1rem;
+    border-radius: 0em 0em 1em 1em;
+    overflow: hidden;
+}
+
+h2{
+    overflow: hidden;
+    text-align: center;
+}
+
+h3{
+    overflow: hidden;
+    text-align: center;
+}
+
+p{
+    overflow: hidden;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    width: 2rem;
+    padding: 1rem;
+}
+.btns button{
+    width: 4rem;
+    font-size: 1.2rem;
+    margin: 0.2rem;
+    border-style: none;
+    background: orange;
+}
+
+#x{
+    border-radius: 0em 1em 0em 0em;
+}
+
+.btns button:hover{
+    background: rgb(255, 72, 0);
+}
+
+.card{
+    display: flex;
+    flex: row;
+    margin: 4rem;
+}

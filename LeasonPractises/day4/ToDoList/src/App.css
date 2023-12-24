@@ -12,12 +12,13 @@ html{
 .note-form{
   display: flex;
   flex-direction: column;
-  background: linear-gradient(rgb(37, 46, 63),rgba(1,1,1,1));
+  background: linear-gradient(rgb(11, 234, 97),rgba(1,1,1,1));
   padding: 2rem;
   gap: .5rem;
 }
 
 .main-topic{
+  border-radius: 1em 1em 0em 0em;
   font-size: 2.4rem;
 
 }
@@ -45,8 +46,6 @@ button{
   border-style: none;
 }
 
-input{
-  border-radius: 1em;
-  padding: 0.5em;
-  border-style: none;
+div{
+  display: flex;
 }
