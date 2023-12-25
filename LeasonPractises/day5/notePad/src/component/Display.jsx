@@ -3,7 +3,7 @@ import './Display.css'
 
 
 const Display = (props) =>{
-    const {edit, setEdit, note} = props;
+    const {note} = props;
     const [ mainTopic, setMainTopic] = useState(note.mainTopic);
     const [ subTopic, setSubTopic] = useState(note.subTopic);
     const [ noteContent, setNoteContent] = useState(note.noteContent);

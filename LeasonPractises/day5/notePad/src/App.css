@@ -8,7 +8,7 @@
 
 .app{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -104,11 +104,11 @@ input{
 
 .previouseNotes{
   display: flex;
-  flex-direction: row;
-  width: 70%;
+  flex-direction: column;
+  height: 65rem;
   overflow: auto;
-  padding: 2rem;
   align-items: center;
+  margin-top: 6rem;
 }
 
 .save{
@@ -135,6 +135,7 @@ input{
   align-items:baseline;
   padding: 2rem;
   padding-bottom: 25rem;
+
 }
 
 .greetings{
@@ -153,4 +154,13 @@ input{
   border-radius: 3rem;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 5rem;
+  left: 75rem;
 }

@@ -6,19 +6,19 @@ import './App.css'
 function App() {
   const [Notes, setNotes] = useState([]);
   const [showForm, setshowForm] = useState(false)
-  const [edit, setEdit] = useState(false)
-  const [note, setNote] = useState({mainTopic:"", subTopic:"", noteContent:""});
+  
   function update(input){
     setNotes([...Notes,input]);
-    //console.log(Notes);
   }
   
   return (
     <main className='app'>
-      <div className='previouseNotes'> {Notes.map(Notes=>(<Display  edit = {edit} setEdit = {setEdit}  note = {Notes}/>))} </div>
+      <div className='previouseNotes'> {Notes.map(Notes=>(<Display note = {Notes}/>))} </div>
       {
         showForm ? 
-          <Form func = {update}/>
+          <div className='form'>
+            <Form func = {update}/>
+          </div>
           : 
           <>
             <div className='openingCard'>
