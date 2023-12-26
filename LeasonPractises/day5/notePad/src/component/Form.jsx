@@ -13,13 +13,11 @@ const Form=( updates )=>{
             noteContent
         }
         updates.func(note);
+        setMainTopic("")
+        setSubTopic ("")
+        setNoteContent ("")
     }
 
-    const edit = (note)=>{
-        setMainTopic[note.mainTopic];
-        setSubTopic[note.subTopic];
-        setNoteContent[note.noteContent];
-    }
     return(<main>
         <form className="note-form" onSubmit={submitHandler}>
             <h1>Taking notes!</h1>

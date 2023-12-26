@@ -10,10 +10,10 @@ function App() {
   function update(input){
     setNotes([...Notes,input]);
   }
-  
+  let i= 0;
   return (
     <main className='app'>
-      <div className='previouseNotes'> {Notes.map(Notes=>(<Display note = {Notes}/>))} </div>
+      <div className='previouseNotes'> {Notes.map(Notes=>(<Display key = {i++} note = {Notes}/>))} </div>
       {
         showForm ? 
           <div className='form'>
