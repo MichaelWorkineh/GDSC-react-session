@@ -11,9 +11,9 @@ function App() {
   //data
   const items = [
     {image: {locaton:"./images/coat.jpg", alt:"coat"}, price: "11.50", name: "coat", index:0},
-    {image: {locaton:"", alt:"item2"}, price: "121.50", name: "item2", index:1},
-    {image: {locaton:"", alt:"item3"}, price: "21.50", name: "item3", index:2},
-    {image: {locaton:"", alt:"item4"}, price: "12.50", name: "item4", index:3}
+    {image: {locaton:"./images/shoe.jpg", alt:"shoe"}, price: "121.50", name: "shoe", index:1},
+    {image: {locaton:"./images/table.jpg", alt:"table"}, price: "21.50", name: "table", index:2},
+    {image: {locaton:"./images/watch.jpg", alt:"watch"}, price: "12.50", name: "watch", index:3}
   ]
   const [index, setIndex] = useState(0);
   const [cart, setCart] = useState([{name:"item0", quantity:4, price:12.65, index:0}]);
