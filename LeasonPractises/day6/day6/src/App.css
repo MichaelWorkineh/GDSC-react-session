@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.out{
+  background: rgb(17, 17, 17);
+  border-radius: 2rem;
+  border-style: solid;
+  border-width: 0.01rem;
+  border-color: rgb(127, 127, 127);
+  padding: 2rem;
+}
+
+.nav{
+  padding: 0.5rem;
+}
+
+.cry{
+  font-size: 5rem;
+}
