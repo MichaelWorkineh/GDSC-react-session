@@ -1,4 +1,4 @@
-import ItemCard from "./itemCard";
+import ItemCard from "./ItemCard";
 import { NavLink, useNavigate } from "react-router-dom";
 import Navigation from "./Navigation";
 import './Home.css'
@@ -13,6 +13,7 @@ export default function Home({items}, index){
                 <h1>E-Commerce</h1>
                 <Navigation/>
             </header>
+            
             <NavLink to = "/IndividualProduct/1" className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>
                         <ItemCard key = {0} item = {items[0]} />
             </NavLink>

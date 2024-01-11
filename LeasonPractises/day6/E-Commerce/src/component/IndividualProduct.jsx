@@ -19,7 +19,7 @@ export default function IndividualProduct({item, set, cart}){
             <Navigation/>
             <div className="itemPage">
                 <div className="titleBar">
-                        <img href = {item.image.locaton} alt={item.image.alt} id="img"></img>
+                        <img src = {item.image.locaton} alt={item.image.alt} id="img"></img>
                         <h2>{item.name}</h2>
                     </div>
                 <div className="itemText">

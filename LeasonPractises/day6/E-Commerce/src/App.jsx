@@ -7,13 +7,18 @@ import Cart from "./component/Cart";
 import IndividualProduct from './component/IndividualProduct';
 import Navigation from "./component/Navigation";
 
+import coat from "./component/images/coat.jpg";
+import shoe from "./component/images/shoe.jpg";
+import table from "./component/images/table.jpg";
+import watch from "./component/images/watch.jpg";
+
 function App() {  
   //data
   const items = [
-    {image: {locaton:"./images/coat.jpg", alt:"coat"}, price: "11.50", name: "coat", index:0},
-    {image: {locaton:"./images/shoe.jpg", alt:"shoe"}, price: "121.50", name: "shoe", index:1},
-    {image: {locaton:"./images/table.jpg", alt:"table"}, price: "21.50", name: "table", index:2},
-    {image: {locaton:"./images/watch.jpg", alt:"watch"}, price: "12.50", name: "watch", index:3}
+    {image: {locaton: coat, alt:"coat"}, price: "11.50", name: "coat", index:0},
+    {image: {locaton:shoe, alt:"shoe"}, price: "121.50", name: "shoe", index:1},
+    {image: {locaton:table, alt:"table"}, price: "21.50", name: "table", index:2},
+    {image: {locaton:watch, alt:"watch"}, price: "12.50", name: "watch", index:3}
   ]
   const [index, setIndex] = useState(0);
   const [cart, setCart] = useState([{name:"item0", quantity:4, price:12.65, index:0}]);
@@ -38,6 +43,7 @@ function App() {
   return (
     <>
       <RouterProvider router={router}/>
+      
     </>
   )
 }
