@@ -1,0 +1,13 @@
+.Total{
+    font-size: 2rem;
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    font-weight: 700;
+}
+
+.trees{
+    position: absolute;
+    bottom: 5rem;
+    left: 3rem;
+}

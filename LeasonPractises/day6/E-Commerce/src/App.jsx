@@ -16,8 +16,8 @@ import watch from "./component/images/watch.jpg";
 function App() {  
   //data
   const items = [
-    {image: {locaton: coat, alt:"coat"}, price: "11.50", name: "coat", index:0},
-    {image: {locaton:shoe, alt:"shoe"}, price: "121.50", name: "shoe", index:1},
+    {image: {locaton: coat, alt:"coat"}, price: "11.50", name: "coat", desc: "Turn heads in this versatile coat, crafted from rich brown leather. Its color adds a touch of beauty, while leather keeps you cozy and confident. Layer it over any outfit for effortless style from city streets to cozy evenings. Your perfect companion for evening out seeking timeless elegance.",index:0},
+    {image: {locaton:shoe, alt:"shoe"}, price: "121.50", name: "shoe", desc: "",index:1},
     {image: {locaton:table, alt:"table"}, price: "21.50", name: "table", index:2},
     {image: {locaton:watch, alt:"watch"}, price: "12.50", name: "watch", index:3}
   ]

@@ -10,7 +10,8 @@
 }
 
 big{
-    font-size:xx-large;
+    font-size:3.5rem;
+    font-weight: 2rem;
 }
 
 .welcome{
@@ -21,4 +22,5 @@ big{
 .itemList{
     width: 70%;
     padding: 0rem;
+    overflow: scroll;
 }

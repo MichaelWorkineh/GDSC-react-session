@@ -12,7 +12,6 @@ export default function Home({items}, index){
         <>
             <header>
                     <Navigation/>
-                    <h1>E-Commerce</h1>
             </header>
             <div className="home">
                 <div className="welcomeBox">

@@ -7,8 +7,8 @@
     padding: 1rem;
     margin: 1rem;
     display: inline-flex;
-    width: 10rem;
-    height: 6rem;
+    width: 15rem;
+    height: 10rem;
 }
 
 .discription{
@@ -20,7 +20,7 @@ p{
 }
 
 #imgItemCard{
-    width: 5rem;
+    width: 10rem;
     background: white;
     margin-right: 2rem;
     border-radius: 1rem 0rem 0rem 1rem;
