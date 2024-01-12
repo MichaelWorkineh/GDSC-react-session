@@ -9,8 +9,8 @@ export default function Cart({cartList, set}){
 
     return(
         <div>
-            <h1>My cart</h1>
             <Navigation/>
+            <h1>My cart</h1>
             {cartList.map((cartList,index)=>(<div><OrderList key={i++} item={cartList}/> <button onClick={
                 () => {
                     x.splice(index,1)

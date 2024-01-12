@@ -6,6 +6,7 @@ import Home from './component/Home'
 import Cart from "./component/Cart";
 import IndividualProduct from './component/IndividualProduct';
 import Navigation from "./component/Navigation";
+import PageNotFound from "./component/PageNotFound";
 
 import coat from "./component/images/coat.jpg";
 import shoe from "./component/images/shoe.jpg";
@@ -21,7 +22,7 @@ function App() {
     {image: {locaton:watch, alt:"watch"}, price: "12.50", name: "watch", index:3}
   ]
   const [index, setIndex] = useState(0);
-  const [cart, setCart] = useState([{name:"item0", quantity:4, price:12.65, index:0}]);
+  const [cart, setCart] = useState([]);
 
   function set(value){
     setCart([...cart,value])
@@ -36,6 +37,7 @@ function App() {
         <Route path="/IndividualProduct/3" element = {<IndividualProduct item={items[2]} set = {set} cart={cart}/>} />
         <Route path="/IndividualProduct/4" element = {<IndividualProduct item={items[3]} set = {set} cart={cart}/>} />
         <Route path="/Cart" element = {<Cart cartList = {cart} set = {setCart}/>} />
+        <Route path="/*" element = {<PageNotFound/>}/>
       </Route>
     )
   )

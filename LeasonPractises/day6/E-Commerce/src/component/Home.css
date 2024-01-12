@@ -1,0 +1,24 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcomeBox{
+    display: flex;
+    align-items: center;
+}
+
+big{
+    font-size:xx-large;
+}
+
+.welcome{
+    width: 50rem;
+    word-wrap: normal;
+}
+
+.itemList{
+    width: 70%;
+    padding: 0rem;
+}

@@ -7,21 +7,22 @@
     padding: 1rem;
     margin: 1rem;
     display: inline-flex;
-    width: 17rem;
-    height: 17rem;
+    width: 10rem;
+    height: 6rem;
 }
 
 .discription{
-    margin-top: 10rem;
+    font-size:small;
 }
 
 p{
     text-align: left;
 }
 
-img{
-    width: 14rem;
+#imgItemCard{
+    width: 5rem;
     background: white;
     margin-right: 2rem;
     border-radius: 1rem 0rem 0rem 1rem;
+    object-fit: cover;
 }
