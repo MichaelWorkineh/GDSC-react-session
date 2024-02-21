@@ -6,13 +6,15 @@ import { useState } from 'react'
 import items from "./items.json"
 import Search from './components/Search.jsx'
 import './App.css'
-
+import Cart from './Cart.jsx'
+import CartItem from './components/CartItem.jsx'
+import DetailsPage from './DetailsPage.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Search placeholder="search" data={items}/>
+       <DetailsPage item={items[0]}/>
     </>
   )
 }

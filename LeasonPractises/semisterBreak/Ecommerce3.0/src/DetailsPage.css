@@ -1,0 +1,53 @@
+main{
+    display: inline-flex;
+    text-align: left;
+    align-items: center;
+}
+
+img{
+    width: 20rem;
+    height: 20rem;
+}
+
+.itemdetails{
+    margin: 2rem;
+}
+
+.sizes{
+    display: inline-flex;
+    gap: 1rem;
+}
+
+.orderSection{
+    display: inline-flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+h5{
+    margin: 0.1rem;
+}
+
+a{
+    width: 200px;
+    text-align: center;
+    background-color: palevioletred;
+    color: black;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.sizeBox{
+    border-color: aliceblue;
+    border-style: solid;
+    padding: 1rem;
+    width: 20px;
+    height: 20px;
+
+    text-align: center;
+}
+
+input{
+    width: 40px;
+    height: 26px;
+}

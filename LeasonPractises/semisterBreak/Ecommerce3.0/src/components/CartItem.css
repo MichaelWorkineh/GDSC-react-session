@@ -1,0 +1,36 @@
+.item{
+    display: inline-flex;
+    gap: 2rem;
+    background: grey;
+    padding: 1rem;
+    margin: 0.3rem;
+}
+
+.toBeBold{
+    font-weight:1000;
+    font-size: larger;
+}
+
+.item img{
+    width: 120px;
+    height: 120px
+}
+
+.itemDetails p{
+    padding: -1rem;
+    margin: 0.2rem;
+    color: black;
+}
+
+.itemDetails{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.theRest{
+    color: black;
+    text-align: right;
+    margin-left: 8rem;
+    margin-top: 1.5rem;
+}

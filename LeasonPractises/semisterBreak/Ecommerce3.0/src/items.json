@@ -8,7 +8,8 @@
         "size": ["S", "M", "L", "XL"],
         "price": 19.99,
         "image_url": "https://example.com/cotton-t-shirt.jpg",
-        "description": "A comfortable cotton t-shirt suitable for everyday wear."
+        "description": "A comfortable cotton t-shirt suitable for everyday wear.",
+        "vendor": "ABC studio"
     },
     {
         "name": "Denim Jeans",
