@@ -1,0 +1,44 @@
+.searchInputs{
+    display: inline-flex;
+    background: white; 
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+input{
+    background: white; 
+    border-style: none;
+    color: black;
+    margin: 0rem;
+    padding: 0rem;
+}
+.searchIcon{
+    width: 10px;
+    height: 10px;
+    color: black;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.dataResult{
+    text-align: left;
+    margin: 0.5rem;
+    background-color: white;
+    display: flexbox;
+    flex-direction: row;
+    width: 233px;
+    border-radius: 0.5rem;
+    overflow-y: scroll;
+    height: 100px;
+}
+
+.dataResult::-webkit-scrollbar {
+    display: none;
+}
+
+.dataResult a{
+    color: black;
+    padding: 1rem;
+}
+
+.dataResult a:hover {
+    color: rgb(29, 41, 74);
+}

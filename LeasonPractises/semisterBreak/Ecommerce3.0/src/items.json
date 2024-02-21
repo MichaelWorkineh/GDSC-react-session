@@ -1,0 +1,144 @@
+
+[
+    {
+        "name": "Cotton T-Shirt",
+        "category": "Tops",
+        "gender": ["Men", "Women"],
+        "color": ["Black", "White", "Blue", "Red", "Gray"],
+        "size": ["S", "M", "L", "XL"],
+        "price": 19.99,
+        "image_url": "https://example.com/cotton-t-shirt.jpg",
+        "description": "A comfortable cotton t-shirt suitable for everyday wear."
+    },
+    {
+        "name": "Denim Jeans",
+        "category": "Bottoms",
+        "gender": ["Men", "Women"],
+        "color": ["Blue", "Black", "Gray"],
+        "size": ["28", "30", "32", "34", "36"],
+        "price": 39.99,
+        "image_url": "https://example.com/denim-jeans.jpg",
+        "description": "Classic denim jeans with a modern fit and durable fabric."
+    },
+    {
+        "name": "Hooded Sweatshirt",
+        "category": "Outerwear",
+        "gender": ["Men", "Women"],
+        "color": ["Gray", "Black", "Navy", "Maroon"],
+        "size": ["S", "M", "L", "XL"],
+        "price": 29.99,
+        "image_url": "https://example.com/hooded-sweatshirt.jpg",
+        "description": "A cozy hooded sweatshirt perfect for chilly days."
+    },
+    {
+        "name": "Running Shoes",
+        "category": "Shoes",
+        "gender": ["Men", "Women"],
+        "color": ["Black", "White", "Gray", "Blue", "Pink"],
+        "size": ["7", "8", "9", "10", "11"],
+        "price": 59.99,
+        "image_url": "https://example.com/running-shoes.jpg",
+        "description": "Lightweight and breathable running shoes designed for maximum comfort."
+    },
+    {
+        "name": "Summer Dress",
+        "category": "Dresses",
+        "gender": ["Women"],
+        "color": ["Yellow", "Blue", "Pink", "White", "Green"],
+        "size": ["S", "M", "L"],
+        "price": 49.99,
+        "image_url": "https://example.com/summer-dress.jpg",
+        "description": "A stylish and flowy dress perfect for summer outings."
+    },
+    {
+        "name": "Polo Shirt",
+        "category": "Tops",
+        "gender": ["Men", "Women"],
+        "color": ["Navy", "White", "Red", "Gray"],
+        "size": ["S", "M", "L", "XL"],
+        "price": 24.99,
+        "image_url": "https://example.com/polo-shirt.jpg",
+        "description": "A classic polo shirt suitable for casual occasions."
+    },
+    {
+        "name": "Chino Pants",
+        "category": "Bottoms",
+        "gender": ["Men", "Women"],
+        "color": ["Khaki", "Black", "Navy"],
+        "size": ["28", "30", "32", "34", "36"],
+        "price": 34.99,
+        "image_url": "https://example.com/chino-pants.jpg",
+        "description": "Versatile chino pants suitable for both formal and casual wear."
+    },
+    {
+        "name": "Leather Jacket",
+        "category": "Outerwear",
+        "gender": ["Men", "Women"],
+        "color": ["Black", "Brown", "Tan"],
+        "size": ["S", "M", "L", "XL"],
+        "price": 79.99,
+        "image_url": "https://example.com/leather-jacket.jpg",
+        "description": "A stylish leather jacket perfect for adding edge to any outfit."
+    },
+    {
+        "name": "Ankle Boots",
+        "category": "Shoes",
+        "gender": ["Men", "Women"],
+        "color": ["Black", "Brown", "Tan"],
+        "size": ["7", "8", "9", "10", "11"],
+        "price": 49.99,
+        "image_url": "https://example.com/ankle-boots.jpg",
+        "description": "Classic ankle boots suitable for various occasions."
+    },
+    {
+        "name": "Maxi Skirt",
+        "category": "Skirts",
+        "gender": ["Women"],
+        "color": ["Black", "White", "Blue", "Red"],
+        "size": ["S", "M", "L"],
+        "price": 39.99,
+        "image_url": "https://example.com/maxi-skirt.jpg",
+        "description": "A flowy maxi skirt perfect for a bohemian-inspired look."
+    },
+    {
+        "name": "Button-Up Shirt",
+        "category": "Tops",
+        "gender": ["Men", "Women"],
+        "color": ["White", "Blue", "Pink", "Gray"],
+        "size": ["S", "M", "L", "XL"],
+        "price": 29.99,
+        "image_url": "https://example.com/button-up-shirt.jpg",
+        "description": "A versatile button-up shirt suitable for both formal and casual occasions."
+    },
+    {
+        "name": "Cargo Shorts",
+        "category": "Bottoms",
+        "gender": ["Men", "Women"],
+        "color": ["Khaki", "Black", "Navy"],
+        "size": ["28", "30", "32", "34", "36"],
+        "price": 19.99,
+        "image_url": "https://example.com/cargo-shorts.jpg",
+        "description": "Functional cargo shorts with ample pocket space for outdoor adventures."
+    },
+    {
+        "name": "Quilted Vest",
+        "category": "Outerwear",
+        "gender": ["Men", "Women"],
+        "color": ["Black", "Navy", "Red"],
+        "size": ["S", "M", "L", "XL"],
+        "price": 34.99,
+        "image_url": "https://example.com/quilted-vest.jpg",
+        "description": "A lightweight quilted vest perfect for layering during transitional seasons."
+    },
+    {
+        "name": "Espadrille Flats",
+        "category": "Shoes",
+        "gender": ["Women"],
+        "color": ["Black", "Beige", "Navy", "Red"],
+        "size": ["7", "8", "9", "10"],
+        "price": 29.99,
+        "image_url": "https://example.com/espadrille-flats.jpg",
+        "description": "Comfortable espadrille flats ideal for everyday wear."
+    }
+    ]
+    
