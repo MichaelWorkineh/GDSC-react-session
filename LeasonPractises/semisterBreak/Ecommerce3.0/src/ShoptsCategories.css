@@ -1,0 +1,16 @@
+.side1 p{
+    width: 500px;
+    align-items: center;
+}
+
+.it{
+    display: inline-flex;
+}
+
+.itemList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
+    gap: 10px; /* Gap between grid items */
+    max-width: 600px; /* Limiting container width for better readability */
+    margin: 0 auto; /* Center the container */
+  }

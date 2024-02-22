@@ -1,4 +1,6 @@
 import React from 'react';
+import { NavLink, useNavigate } from "react-router-dom";
+
 import { useState } from 'react';
 import './Search.css';
 import SearchIcon from '@mui/icons-material/Search';
@@ -17,7 +19,7 @@ export default function Search({placeholder, data}){
     return(
         <div className="search">
             <div className="searchInputs">
-                <input type= "text" placeholder={placeholder} onChange={handleFilter}></input>
+                <input type= "text" placeholder={placeholder} onChange={handleFilter} className='searchInput'></input>
                 <div className="searchIcon">
                     <SearchIcon/>
                 </div>
@@ -26,7 +28,10 @@ export default function Search({placeholder, data}){
                 <div className="dataResult">
                     {   
                         filteredData.slice(0, 6).map((value, key) => {
-                            return <><a className='result' href = ""> {value.name} </a><br></br></>
+                            /**<NavLink to = {data[0].roughting} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>
+                        <ItemCard item={data[0]}/>
+                    </NavLink> */
+                            return <><a className='result' href = {value.roughting}> {value.name} </a><br></br></>
                         })
                     }
                 </div>

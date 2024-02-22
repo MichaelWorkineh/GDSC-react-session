@@ -1,0 +1,24 @@
+.itemCard{
+    background-color: rgb(73, 73, 73);
+    width: 210px;
+    overflow: hidden;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.info{
+    padding-top: 8rem;
+    text-align: right;
+}
+
+.itemCard:hover{
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    background: linear-gradient(rgb(117, 117, 117), rgb(117, 117, 117), rgb(117, 117, 117), rgb(216, 112, 147));
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}

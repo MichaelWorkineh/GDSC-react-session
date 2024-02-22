@@ -1,0 +1,28 @@
+.catagory{
+    width: 160px;
+    height: 200px;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.21);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.catagory img{
+    width: 160px;
+    height: 150px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.catagory h3{
+    background-color: rgb(224, 169, 223);
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 0px;
+}

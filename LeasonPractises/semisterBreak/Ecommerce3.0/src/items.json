@@ -9,7 +9,8 @@
         "price": 19.99,
         "image_url": "https://example.com/cotton-t-shirt.jpg",
         "description": "A comfortable cotton t-shirt suitable for everyday wear.",
-        "vendor": "ABC studio"
+        "vendor": "ABC studio",
+        "roughting": "/Tops/CottonT-Shirt"
     },
     {
         "name": "Denim Jeans",
@@ -19,7 +20,8 @@
         "size": ["28", "30", "32", "34", "36"],
         "price": 39.99,
         "image_url": "https://example.com/denim-jeans.jpg",
-        "description": "Classic denim jeans with a modern fit and durable fabric."
+        "description": "Classic denim jeans with a modern fit and durable fabric.",
+        "roughting": "/Bottoms/DenimJeans"
     },
     {
         "name": "Hooded Sweatshirt",
@@ -29,7 +31,8 @@
         "size": ["S", "M", "L", "XL"],
         "price": 29.99,
         "image_url": "https://example.com/hooded-sweatshirt.jpg",
-        "description": "A cozy hooded sweatshirt perfect for chilly days."
+        "description": "A cozy hooded sweatshirt perfect for chilly days.",
+        "roughting": "/Outerwear/HoodedSweatshirt"
     },
     {
         "name": "Running Shoes",
@@ -39,7 +42,8 @@
         "size": ["7", "8", "9", "10", "11"],
         "price": 59.99,
         "image_url": "https://example.com/running-shoes.jpg",
-        "description": "Lightweight and breathable running shoes designed for maximum comfort."
+        "description": "Lightweight and breathable running shoes designed for maximum comfort.",
+        "roughting": "/Shoes/RunningShoes"
     },
     {
         "name": "Summer Dress",
@@ -49,7 +53,8 @@
         "size": ["S", "M", "L"],
         "price": 49.99,
         "image_url": "https://example.com/summer-dress.jpg",
-        "description": "A stylish and flowy dress perfect for summer outings."
+        "description": "A stylish and flowy dress perfect for summer outings.",
+        "roughting": "/Dresses/SummerDress"
     },
     {
         "name": "Polo Shirt",
@@ -59,17 +64,19 @@
         "size": ["S", "M", "L", "XL"],
         "price": 24.99,
         "image_url": "https://example.com/polo-shirt.jpg",
-        "description": "A classic polo shirt suitable for casual occasions."
+        "description": "A classic polo shirt suitable for casual occasions.",
+        "roughting": "/Tops/PoloShirt"
     },
     {
-        "name": "Chino Pants",
+        "name": "Cargo Pants",
         "category": "Bottoms",
         "gender": ["Men", "Women"],
         "color": ["Khaki", "Black", "Navy"],
         "size": ["28", "30", "32", "34", "36"],
         "price": 34.99,
         "image_url": "https://example.com/chino-pants.jpg",
-        "description": "Versatile chino pants suitable for both formal and casual wear."
+        "description": "Versatile chino pants suitable for both formal and casual wear.",
+        "roughting": "/Bottoms/CargoPants"
     },
     {
         "name": "Leather Jacket",
@@ -79,7 +86,8 @@
         "size": ["S", "M", "L", "XL"],
         "price": 79.99,
         "image_url": "https://example.com/leather-jacket.jpg",
-        "description": "A stylish leather jacket perfect for adding edge to any outfit."
+        "description": "A stylish leather jacket perfect for adding edge to any outfit.",
+        "roughting": "/Outerwear/LeatherJacket"
     },
     {
         "name": "Ankle Boots",
@@ -89,7 +97,8 @@
         "size": ["7", "8", "9", "10", "11"],
         "price": 49.99,
         "image_url": "https://example.com/ankle-boots.jpg",
-        "description": "Classic ankle boots suitable for various occasions."
+        "description": "Classic ankle boots suitable for various occasions.",
+        "roughting": "/Shoes/AnkleBoots"
     },
     {
         "name": "Maxi Skirt",
@@ -99,7 +108,8 @@
         "size": ["S", "M", "L"],
         "price": 39.99,
         "image_url": "https://example.com/maxi-skirt.jpg",
-        "description": "A flowy maxi skirt perfect for a bohemian-inspired look."
+        "description": "A flowy maxi skirt perfect for a bohemian-inspired look.",
+        "roughting": "/Skirts/MaxiSkirt"
     },
     {
         "name": "Button-Up Shirt",
@@ -109,17 +119,19 @@
         "size": ["S", "M", "L", "XL"],
         "price": 29.99,
         "image_url": "https://example.com/button-up-shirt.jpg",
-        "description": "A versatile button-up shirt suitable for both formal and casual occasions."
+        "description": "A versatile button-up shirt suitable for both formal and casual occasions.",
+        "roughting": "/Tops/Button-UpShirt"
     },
     {
-        "name": "Cargo Shorts",
+        "name": "Chino Pants",
         "category": "Bottoms",
         "gender": ["Men", "Women"],
         "color": ["Khaki", "Black", "Navy"],
         "size": ["28", "30", "32", "34", "36"],
         "price": 19.99,
         "image_url": "https://example.com/cargo-shorts.jpg",
-        "description": "Functional cargo shorts with ample pocket space for outdoor adventures."
+        "description": "Functional cargo shorts with ample pocket space for outdoor adventures.",
+        "roughting": "/Bottoms/ChinoPants"
     },
     {
         "name": "Quilted Vest",
@@ -129,7 +141,8 @@
         "size": ["S", "M", "L", "XL"],
         "price": 34.99,
         "image_url": "https://example.com/quilted-vest.jpg",
-        "description": "A lightweight quilted vest perfect for layering during transitional seasons."
+        "description": "A lightweight quilted vest perfect for layering during transitional seasons.",
+        "roughting": "/Outerwear/QuiltedVest"
     },
     {
         "name": "Espadrille Flats",
@@ -139,7 +152,10 @@
         "size": ["7", "8", "9", "10"],
         "price": 29.99,
         "image_url": "https://example.com/espadrille-flats.jpg",
-        "description": "Comfortable espadrille flats ideal for everyday wear."
+        "description": "Comfortable espadrille flats ideal for everyday wear.",
+        "roughting": "/Shoes/EspadrilleFlats"
     }
-    ]
+]
+    
+
     

@@ -27,7 +27,7 @@ export default function DetailsPage({item}){
                         <a href="" className="orderBox">{"Add to Cart - $"+(quantity*item.price)}</a>
                         <div className="quantitySetter">
                             <h5>Quantity</h5>
-                            <input type="number"></input>
+                            <input type="number" min="1" placeholder="1"></input>
                         </div>
                     </div>
                 </div>
