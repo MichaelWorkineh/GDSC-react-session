@@ -4,7 +4,7 @@ import OrderSummary from "./components/OrderSummary";
 import './Cart.css'
 import items from "./items.json"
 export default function Cart({order}){
-    const Cart = JSON.parse(localStorage.getItem('order'));
+    const Cart = order;
     return(
         <>
             <header>
