@@ -17,9 +17,6 @@ export default function ConfirmationPage({cart}){
                 <p>you have successfuly purchased these items</p>
                 <button onClick={clear}> return to home</button>
             </main>
-            <footer>
-                footer
-            </footer>
         </>
     )
 }

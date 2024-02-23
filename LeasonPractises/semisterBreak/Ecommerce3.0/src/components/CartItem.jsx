@@ -14,7 +14,6 @@ export default function CartItem({item, quantity, size}){
             </div>
             <div className="theRest">
                 <p className="makerName">{"by " + item.vendor}</p>
-                <button className="remove">Remove</button>
             </div>
         </div>
     );

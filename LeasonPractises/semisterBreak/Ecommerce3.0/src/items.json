@@ -21,6 +21,7 @@
         "price": 39.99,
         "image_url": "https://example.com/denim-jeans.jpg",
         "description": "Classic denim jeans with a modern fit and durable fabric.",
+        "vendor": "HasanAbi",
         "roughting": "/Bottoms/DenimJeans"
     },
     {
@@ -32,6 +33,7 @@
         "price": 29.99,
         "image_url": "https://example.com/hooded-sweatshirt.jpg",
         "description": "A cozy hooded sweatshirt perfect for chilly days.",
+        "vendor": "Ludwig",
         "roughting": "/Outerwear/HoodedSweatshirt"
     },
     {
@@ -43,6 +45,7 @@
         "price": 59.99,
         "image_url": "https://example.com/running-shoes.jpg",
         "description": "Lightweight and breathable running shoes designed for maximum comfort.",
+        "vendor": "jeff",
         "roughting": "/Shoes/RunningShoes"
     },
     {
@@ -54,6 +57,7 @@
         "price": 49.99,
         "image_url": "https://example.com/summer-dress.jpg",
         "description": "A stylish and flowy dress perfect for summer outings.",
+        "vendor": "IlikeTrain inc.",
         "roughting": "/Dresses/SummerDress"
     },
     {
@@ -65,6 +69,7 @@
         "price": 24.99,
         "image_url": "https://example.com/polo-shirt.jpg",
         "description": "A classic polo shirt suitable for casual occasions.",
+        "vendor": "redStarts",
         "roughting": "/Tops/PoloShirt"
     },
     {
@@ -76,6 +81,7 @@
         "price": 34.99,
         "image_url": "https://example.com/chino-pants.jpg",
         "description": "Versatile chino pants suitable for both formal and casual wear.",
+        "vendor": "liberation",
         "roughting": "/Bottoms/CargoPants"
     },
     {
@@ -87,6 +93,7 @@
         "price": 79.99,
         "image_url": "https://example.com/leather-jacket.jpg",
         "description": "A stylish leather jacket perfect for adding edge to any outfit.",
+        "vendor": "TheLest",
         "roughting": "/Outerwear/LeatherJacket"
     },
     {
@@ -98,6 +105,7 @@
         "price": 49.99,
         "image_url": "https://example.com/ankle-boots.jpg",
         "description": "Classic ankle boots suitable for various occasions.",
+        "vendor": "Vandercoy",
         "roughting": "/Shoes/AnkleBoots"
     },
     {
@@ -109,6 +117,7 @@
         "price": 39.99,
         "image_url": "https://example.com/maxi-skirt.jpg",
         "description": "A flowy maxi skirt perfect for a bohemian-inspired look.",
+        "vendor": "ThinkTanksBad",
         "roughting": "/Skirts/MaxiSkirt"
     },
     {
@@ -120,6 +129,7 @@
         "price": 29.99,
         "image_url": "https://example.com/button-up-shirt.jpg",
         "description": "A versatile button-up shirt suitable for both formal and casual occasions.",
+        "vendor": "TheWakening",
         "roughting": "/Tops/Button-UpShirt"
     },
     {
@@ -131,6 +141,7 @@
         "price": 19.99,
         "image_url": "https://example.com/cargo-shorts.jpg",
         "description": "Functional cargo shorts with ample pocket space for outdoor adventures.",
+        "vendor": "Ludwig",
         "roughting": "/Bottoms/ChinoPants"
     },
     {
@@ -142,6 +153,7 @@
         "price": 34.99,
         "image_url": "https://example.com/quilted-vest.jpg",
         "description": "A lightweight quilted vest perfect for layering during transitional seasons.",
+        "vendor": "TheResistance",
         "roughting": "/Outerwear/QuiltedVest"
     },
     {
@@ -153,6 +165,7 @@
         "price": 29.99,
         "image_url": "https://example.com/espadrille-flats.jpg",
         "description": "Comfortable espadrille flats ideal for everyday wear.",
+        "vendor": "Benjamin",
         "roughting": "/Shoes/EspadrilleFlats"
     }
 ]

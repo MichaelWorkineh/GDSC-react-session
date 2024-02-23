@@ -61,15 +61,15 @@ export default function HomePage(){
             <main className="main">
                 <div className="banner">
                 </div>
-                
+
                 <h2>Categories</h2>
                 <div className="homePageItem">
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <button>
-                    button
-                </button>
+                <NavLink to = {"/Tops"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>
+                    Categories
+                </NavLink>
                 </div>
                 <div className="catagories">
                     {catagories.map(catagory => (<NavLink to = {catagory.roughting} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}><Category name={catagory}/></NavLink>))}
@@ -80,9 +80,9 @@ export default function HomePage(){
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 </p>
-                <button>
-                    button
-                </button>
+                <NavLink to = {"/Bottoms"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>
+                    New arrivals
+                </NavLink>
                 </div>
                 <br></br>
                 <div className="item">
@@ -103,9 +103,9 @@ export default function HomePage(){
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 </p>
-                <button>
-                    button
-                </button>
+                <NavLink to = {"/Shoes"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>
+                    Products
+                </NavLink>
                 </div>
                 <br></br>
                 <div className="item">
@@ -120,9 +120,6 @@ export default function HomePage(){
                     </NavLink>
                 </div>
             </main>
-            <footer>
-                footer
-            </footer>
         </>
     );
 }

@@ -21,9 +21,11 @@ export default function DetailsPage({item, set}){
             image_url: item.image_url,
             description: item.description,
             roughting: item.roughting,
+            vendor: item.vendor,
             quantity: quantity
         };
         set(obj);
+        alert(obj.name+" added to ur cart");
     }
     
     return(
@@ -58,7 +60,6 @@ export default function DetailsPage({item, set}){
                 </div>
                 <hr></hr>
             </main>
-            <footer>footer</footer>
         </div>
     );
 }

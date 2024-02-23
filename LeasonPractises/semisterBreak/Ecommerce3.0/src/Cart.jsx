@@ -30,9 +30,6 @@ export default function Cart({order}){
                     <OrderSummary orders={order}/>
                 </div>
             </main>
-            <footer>
-                footer
-            </footer>
         </>
     );
 }

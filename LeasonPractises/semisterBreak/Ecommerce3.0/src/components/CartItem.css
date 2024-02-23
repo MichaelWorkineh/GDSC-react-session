@@ -19,7 +19,7 @@
 .itemDetails p{
     padding: -1rem;
     margin: 0.2rem;
-    color: black;
+    color: white;
     font-size: medium;
     width: 150px;
 }
@@ -31,7 +31,7 @@
 }
 
 .theRest{
-    color: black;
+    color: white;
     text-align: right;
     margin-left: 7rem;
     margin-top: 1.5rem;

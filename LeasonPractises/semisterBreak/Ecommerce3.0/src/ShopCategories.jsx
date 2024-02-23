@@ -74,9 +74,6 @@ export default function({category, categories}){
                 <button>Button</button>
                 <hr></hr>
             </main>
-            <footer>
-                footer
-            </footer>
         </>
     )
 }

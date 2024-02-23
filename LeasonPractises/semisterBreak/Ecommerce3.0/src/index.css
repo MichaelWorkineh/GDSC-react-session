@@ -21,9 +21,6 @@ a {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
@@ -54,3 +51,15 @@ button {
     background-color: #f9f9f9;
   }
 }
+
+footer {
+  position: relative; /* Set the position to fixed */
+  bottom: 0; /* Align the element to the bottom */
+  width: 100%; /* Make the element span the full width */
+  background-color: #333; /* Example background color */
+  color: #fff; /* Example text color */
+  padding: 20px; /* Example padding */
+  float: left;
+  left: -100;
+}
+
