@@ -1,4 +1,7 @@
 import React from "react";
+
+import { NavLink, useNavigate } from "react-router-dom";
+
 import './OrderSummary.css'
 export default function OrderSummary({orders}){
     function totalCost(){
@@ -25,7 +28,9 @@ export default function OrderSummary({orders}){
                     <td>{totalCost()}</td>
                 </tr>
             </table>
-            <a href="/confirm">Continue to checkout</a>
+            <NavLink to = {"/confirm"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>
+                Continue to checkout
+            </NavLink>
         </div>
     );
 }
