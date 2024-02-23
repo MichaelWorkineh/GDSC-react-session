@@ -16,15 +16,14 @@ import ShopCategories from './ShopCategories.jsx';
 import ConfirmationPage from './ConfirmationPage.jsx';
 
 function App() {
-  const [order, setOrder] = useState(JSON.parse(localStorage.getItem('order')));
+  const [order, setOrder] = useState([]);
 
   function set(value){
     if(order.length != 0) console.log("not empty");
     else console.log("emptied");
-    setOrder(JSON.parse(localStorage.getItem('order')));
+    setOrder(order);
     let temp = [...order, value];
     setOrder(temp);
-    localStorage.setItem('order', JSON.stringify(order));
   }
 
   const router = createBrowserRouter(

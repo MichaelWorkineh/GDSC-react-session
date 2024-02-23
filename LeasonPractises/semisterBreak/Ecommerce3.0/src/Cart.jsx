@@ -1,8 +1,10 @@
 import React from "react";
+
+import { NavLink, useNavigate } from "react-router-dom";
+
 import CartItem from "./components/CartItem";
 import OrderSummary from "./components/OrderSummary";
 import './Cart.css'
-import items from "./items.json"
 export default function Cart({order}){
     const Cart = order;
     return(
@@ -13,7 +15,11 @@ export default function Cart({order}){
             <main>
                 <div className="text">
                     <h3>Your cart</h3>
-                    <p>Not ready to checkout? <a href="/" >Continue Shopping</a></p>
+                    <p>Not ready to checkout? 
+                        <NavLink to = {"/"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>
+                            Continue Shopping
+                        </NavLink>
+                    </p>
                 </div>
                 <div className="box">
                     <div className="orderCards">
