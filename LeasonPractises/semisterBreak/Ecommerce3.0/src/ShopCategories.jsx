@@ -59,19 +59,9 @@ export default function({category, categories}){
                     <Search placeholder={"search"} data={data}/>
                 </div>
                 <br></br>
-                <label>Filters </label>
-                <select>
-                    <option>Tops</option>
-                    <option><NavLink to = {"/Bottoms"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>Bottoms</NavLink></option>
-                    <option><NavLink to = {"/Outerwear"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>Outerwear</NavLink></option>
-                    <option><NavLink to = {"/Shoes"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>Shoes</NavLink></option>
-                    <option><NavLink to = {"/Dresses"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>Dresses</NavLink></option>
-                    <option><NavLink to = {"/Skirts"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>Skirts</NavLink></option>
-                </select>
                 <div className="itemList">
                     {categories.map(cata => (<NavLink to = {cata.roughting} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}><ItemCard item={cata} /></NavLink>))}
                 </div>
-                <button>Button</button>
                 <hr></hr>
             </main>
         </>
