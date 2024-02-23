@@ -1,7 +1,7 @@
 import React from "react";
 import './ConfirmationPage.css'
 export default function ConfirmationPage(cart){
-    const Cart = JSON.parse(localStorage.getItem('order'));
+    const Cart = cart;
     function clear(){
         localStorage.setItem('order', JSON.stringify([]));
         window.location.href = '/';
