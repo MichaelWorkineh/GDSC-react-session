@@ -6,7 +6,6 @@ import CartItem from "./components/CartItem";
 import OrderSummary from "./components/OrderSummary";
 import './Cart.css'
 export default function Cart({order}){
-    const Cart = order;
     return(
         <>
             <header>
@@ -24,11 +23,11 @@ export default function Cart({order}){
                 <div className="box">
                     <div className="orderCards">
                     {
-                        Cart.map((cart, index) => (<CartItem item={cart} quantity={cart.quantity} size={"M"} key={index}/>))
+                        order.map((cart, index) => (<CartItem item={cart} quantity={cart.quantity} size={"M"} key={index}/>))
                     }
                         
                     </div>
-                    <OrderSummary orders={Cart}/>
+                    <OrderSummary orders={order}/>
                 </div>
             </main>
             <footer>
