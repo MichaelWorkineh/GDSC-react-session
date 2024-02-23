@@ -1,7 +1,7 @@
-.item{
+.cartItems{
     display: inline-flex;
     gap: 2rem;
-    background: grey;
+    align-items: center;
     padding: 1rem;
     margin: 0.3rem;
 }
@@ -11,15 +11,17 @@
     font-size: larger;
 }
 
-.item img{
-    width: 120px;
-    height: 120px
+.itemProfile{
+    width: 100px;
+    height: 100px;
 }
 
 .itemDetails p{
     padding: -1rem;
     margin: 0.2rem;
     color: black;
+    font-size: medium;
+    width: 150px;
 }
 
 .itemDetails{
@@ -31,6 +33,6 @@
 .theRest{
     color: black;
     text-align: right;
-    margin-left: 8rem;
+    margin-left: 7rem;
     margin-top: 1.5rem;
 }

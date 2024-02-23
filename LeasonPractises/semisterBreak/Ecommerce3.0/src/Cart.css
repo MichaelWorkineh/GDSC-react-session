@@ -3,3 +3,11 @@
     display: inline-flex;
     align-items: center;
 }
+
+.orderCards{
+    height: 300px;
+    width: 700px;
+    overflow-y: scroll;
+    margin: 1rem;
+    margin-right: 5rem;
+}

@@ -50,9 +50,4 @@ function App() {
   )
 }
 
-export default App
-
-/*
-    * <Home items={items}/>
-    * <IndividualProduct item={items[3]}/>
- */
+export default App;

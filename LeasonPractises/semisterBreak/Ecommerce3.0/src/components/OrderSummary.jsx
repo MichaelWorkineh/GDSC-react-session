@@ -1,18 +1,20 @@
 import React from "react";
 import './OrderSummary.css'
 export default function OrderSummary({orders}){
-    let totalCost = 0;
-/*
-    for(let i = 0; i<orders.size(); i++){
-        totalCost += orders[i].quantity * orders[i].price;
+    function totalCost(){
+        let sum = 0;
+        for(let n = 0; n<orders.length; n++){
+            sum += (orders[n].price*orders[n].quantity);
+        }
+        console.log(sum);
+        return sum;
     }
-*/
     return(
         <div className="orderSummary">
             <table>
                 <tr>
                     <td>Subtotal</td>
-                    <td>{totalCost}</td>
+                    <td>{totalCost()}</td>
                 </tr>
                 <tr>
                     <td>Shipping</td>
@@ -20,10 +22,10 @@ export default function OrderSummary({orders}){
                 </tr>
                 <tr>
                     <td>Total</td>
-                    <td>{totalCost}</td>
+                    <td>{totalCost()}</td>
                 </tr>
             </table>
-            <button className="check">Continue to checkout</button>
+            <a href="/confirm">Continue to checkout</a>
         </div>
     );
 }

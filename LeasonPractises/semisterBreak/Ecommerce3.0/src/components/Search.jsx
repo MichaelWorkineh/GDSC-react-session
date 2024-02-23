@@ -28,9 +28,6 @@ export default function Search({placeholder, data}){
                 <div className="dataResult">
                     {   
                         filteredData.slice(0, 6).map((value, key) => {
-                            /**<NavLink to = {data[0].roughting} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>
-                        <ItemCard item={data[0]}/>
-                    </NavLink> */
                             return <><a className='result' href = {value.roughting}> {value.name} </a><br></br></>
                         })
                     }

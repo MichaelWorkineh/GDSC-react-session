@@ -52,29 +52,38 @@ const catagories = [
 export default function HomePage(){
     return(
         <>
-            <header>
+            <header className="header">
                 <h1>Ecommerce</h1>
-                <button>Cart</button>
+                <NavLink to = {"/Cart"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>
+                    Cart
+                </NavLink>
             </header>
             <main className="main">
+                <div className="banner">
+                </div>
+                
                 <h2>Categories</h2>
+                <div className="homePageItem">
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <button>
                     button
                 </button>
+                </div>
                 <div className="catagories">
                     {catagories.map(catagory => (<NavLink to = {catagory.roughting} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}><Category name={catagory}/></NavLink>))}
                 </div>
 
                 <h2>Our latest arrivals</h2>
+                <div className="homePageItem">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 </p>
                 <button>
                     button
                 </button>
+                </div>
                 <br></br>
                 <div className="item">
                     <NavLink to = {data[0].roughting} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>
@@ -90,12 +99,14 @@ export default function HomePage(){
                     </NavLink>
                 </div>
                 <h2>Our Products</h2>
+                <div className="homePageItem">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 </p>
                 <button>
                     button
                 </button>
+                </div>
                 <br></br>
                 <div className="item">
                     <NavLink to = {data[6].roughting} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>

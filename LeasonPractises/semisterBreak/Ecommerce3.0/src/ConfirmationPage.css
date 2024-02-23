@@ -1,0 +1,7 @@
+.boughtItem{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    gap: 10px; /* Gap between grid items */
+    max-width: 600px; /* Limiting container width for better readability */
+    margin: 0 auto; /* Center the container */
+}

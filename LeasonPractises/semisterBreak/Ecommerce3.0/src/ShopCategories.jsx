@@ -43,8 +43,10 @@ export default function({category, categories}){
     return(
         <>
             <header>
-                {category}
-                <button>Cart</button>
+                <h1>{category}</h1>
+                <NavLink to = {"/Cart"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>
+                    Cart
+                </NavLink>
             </header>
             <main>
                 <div className="it">
@@ -59,7 +61,7 @@ export default function({category, categories}){
                 <br></br>
                 <label>Filters </label>
                 <select>
-                    <option><NavLink to = {"/Tops"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>Tops</NavLink></option>
+                    <option>Tops</option>
                     <option><NavLink to = {"/Bottoms"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>Bottoms</NavLink></option>
                     <option><NavLink to = {"/Outerwear"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>Outerwear</NavLink></option>
                     <option><NavLink to = {"/Shoes"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>Shoes</NavLink></option>

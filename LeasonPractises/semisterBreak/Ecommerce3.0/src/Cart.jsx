@@ -4,7 +4,7 @@ import OrderSummary from "./components/OrderSummary";
 import './Cart.css'
 import items from "./items.json"
 export default function Cart({order}){
-    //<CartItem item={items[0]} quantity={1} size={"M"}/>
+    const Cart = JSON.parse(localStorage.getItem('order'));
     return(
         <>
             <header>
@@ -13,14 +13,16 @@ export default function Cart({order}){
             <main>
                 <div className="text">
                     <h3>Your cart</h3>
-                    <p>Not ready to checkout? <a href="" >Continue Shopping</a></p>
+                    <p>Not ready to checkout? <a href="/" >Continue Shopping</a></p>
                 </div>
                 <div className="box">
-                    <div>
-                        <CartItem item={items[0]} quantity={1} size={"M"}/>
-                        <CartItem item={items[0]} quantity={1} size={"M"}/>
+                    <div className="orderCards">
+                    {
+                        Cart.map((cart, index) => (<CartItem item={cart} quantity={cart.quantity} size={"M"} key={index}/>))
+                    }
+                        
                     </div>
-                    <OrderSummary/>
+                    <OrderSummary orders={Cart}/>
                 </div>
             </main>
             <footer>

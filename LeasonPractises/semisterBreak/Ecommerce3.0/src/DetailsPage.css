@@ -1,10 +1,15 @@
-main{
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+.itemInfo{
     display: inline-flex;
     text-align: left;
     align-items: center;
 }
 
-img{
+.itemImg{
     width: 20rem;
     height: 20rem;
 }
@@ -52,4 +57,11 @@ input{
     width: 40px;
     height: 26px;
     text-align: center;
+}
+
+.orderButton{
+    width: 200px;
+    margin: 1rem;
+    margin-left: 0rem;
+    margin-top: 2rem;
 }

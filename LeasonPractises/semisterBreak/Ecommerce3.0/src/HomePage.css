@@ -1,5 +1,37 @@
+header{
+    display: inline-flex;
+    justify-content: space-between; /* Align content with space between */
+    align-items: center;
+    width: 100%;
+}
+
+header a{
+    width: 30px;
+    height: 10px;
+    align-items: center;
+    text-align: center;
+    font-size:large;
+    padding: 1rem;
+}
+
+.banner{
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: changeBackground 10s infinite;
+  }
+  
+  @keyframes changeBackground {
+    0% {
+      background-image: url('./assets/q/Gemini_Generated_Image.jpg'); /* Change to your image path */
+    }
+    50% {
+      background-image: url('./assets/q/Gemini_Generated_Image\ \(1\).jpg'); /* Change to your image path */
+    }
+  }
+
 main{
     display: table-row;
+    justify-content: center;
 }
 h2{
     text-align: center;
@@ -8,13 +40,20 @@ h2{
 .item{
     height: 500px;
     width: 100%;
-}
-
-.item{
-    background-color: rgba(240, 248, 255, 0);
+    display: inline-flex;
+    gap: 2rem;
+    margin: 2rem;
+    margin-bottom: 7rem;
 }
 
 .catagories{
     display: flex;
     flex-direction: row;
+    overflow-x: scroll;
+    width: 1000px;
+}
+
+.homePageItem{
+    display: inline-flex;
+    gap: 1rem;
 }

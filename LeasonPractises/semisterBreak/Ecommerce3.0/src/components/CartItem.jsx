@@ -2,10 +2,10 @@ import React from "react";
 import './CartItem.css';
 import image from '../assets/react.svg'
 export default function CartItem({item, quantity, size}){
-    
+    console.log(item.name);
     return(
-        <div className="item">
-            <img src={image} alt={"an image of " + item.name}></img>
+        <div className="cartItems">
+            <img className="itemProfile"  src={image} alt={"an image of " + item.name}></img>
             <div className="itemDetails">
                 <p className="toBeBold">{item.name}</p>
                 <p className="size">{"Size: " + size}</p>
