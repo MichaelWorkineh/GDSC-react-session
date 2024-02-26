@@ -11,6 +11,11 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 
 a {
@@ -26,6 +31,11 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  padding-left: 1rem;
+}
+
+h2{
+  padding-left: 1rem;
 }
 
 button {
@@ -52,14 +62,18 @@ button {
   }
 }
 
-footer {
+.footer {
   position: relative; /* Set the position to fixed */
   bottom: 0; /* Align the element to the bottom */
+  text-align: center;
+  margin: 0rem;
   width: 100%; /* Make the element span the full width */
   background-color: #333; /* Example background color */
   color: #fff; /* Example text color */
-  padding: 20px; /* Example padding */
-  float: left;
-  left: -100;
+  padding: 10px;
+}
+
+.App{
+  padding-left: 20rem;
 }
 

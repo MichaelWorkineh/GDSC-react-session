@@ -8,14 +8,21 @@ export default function ConfirmationPage({cart}){
         <>
             <header><h1>Confirmation</h1></header>
             <main>
-                <p>Bought Items</p>
-                <div className="boughtItem">
-                    {
-                        cart.map((acart, index) => (<p key={index}>{acart.name}</p>))
-                    }
+                <div className = "confirmMainBox">
+                    <p>Bought Items</p>
+                    <div className="boughtItem">
+                       {
+                            cart.length !=0 &&cart.map((acart, index) => (<p key={index}>{acart.name}</p>))
+                        }
+                        {
+                            cart.length == 0 && (<p>Empty cart</p>)
+                        }
+                    </div>
+                    <div className="return2home">
+                         <p>you have successfuly purchased these items </p>
+                        <button onClick={clear}> return to home</button>
+                    </div>
                 </div>
-                <p>you have successfuly purchased these items</p>
-                <button onClick={clear}> return to home</button>
             </main>
         </>
     )

@@ -1,7 +1,30 @@
 .boughtItem{
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
-    gap: 10px; /* Gap between grid items */
-    max-width: 600px; /* Limiting container width for better readability */
-    margin: 0 auto; /* Center the container */
+    grid-template-columns: repeat(2, 10.7rem);
+    gap: 10px; 
+    max-width: 400px;
+    margin: 0 auto;
+    margin-left: 5rem;
+    height: 120px;
+    overflow-y: scroll;
+}
+
+.boughtItem p{
+    color: palevioletred;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.confirmMainBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 15.5rem;
+}
+.return2home{
+    margin-top: 5rem;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
 }

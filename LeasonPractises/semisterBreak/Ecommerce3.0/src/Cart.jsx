@@ -12,22 +12,23 @@ export default function Cart({order}){
                 <h1>Cart</h1>
             </header>
             <main>
-                <div className="text">
-                    <h3>Your cart</h3>
-                    <p>Not ready to checkout? 
-                        <NavLink to = {"/"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>
-                            Continue Shopping
-                        </NavLink>
-                    </p>
-                </div>
-                <div className="box">
-                    <div className="orderCards">
-                    {
-                        order.map((cart, index) => (<CartItem item={cart} quantity={cart.quantity} size={"M"} key={index}/>))
-                    }
-                        
+                <div className="cartStuff">
+                    <div className="text">
+                        <h3>Your cart</h3>
+                        <p>Not ready to checkout? 
+                            <NavLink to = {"/"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>
+                                Continue Shopping
+                            </NavLink>
+                        </p>
                     </div>
-                    <OrderSummary orders={order}/>
+                    <div className="box">
+                        <div className="orderCards">
+                            {
+                                order.map((cart, index) => (<CartItem item={cart} quantity={cart.quantity} size={"M"} key={index}/>))
+                            }   
+                        </div>
+                        <OrderSummary orders={order}/>
+                    </div>
                 </div>
             </main>
         </>

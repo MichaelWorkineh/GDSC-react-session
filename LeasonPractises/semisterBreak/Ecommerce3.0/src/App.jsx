@@ -1,19 +1,14 @@
 import { useState } from 'react'
 import { createBrowserRouter, Route, createRoutesFromElements } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
-/*
-  import reactLogo from './assets/react.svg'
-  import viteLogo from '/vite.svg'
- */
 import items from "./items.json"
-import Search from './components/Search.jsx'
 import './App.css'
 import Cart from './Cart.jsx'
-import CartItem from './components/CartItem.jsx'
 import DetailsPage from './DetailsPage.jsx'
 import HomePage from './HomePage.jsx'
 import ShopCategories from './ShopCategories.jsx';
 import ConfirmationPage from './ConfirmationPage.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
   const [order, setOrder] = useState([]);
@@ -66,7 +61,12 @@ function App() {
 
   return (
     <>
-      <RouterProvider router={router}/>
+      <div className='router'>
+        <RouterProvider router={router}/>
+      </div>
+      <div className='footer'>
+        <Footer/>
+      </div>
     </>
   )
 }

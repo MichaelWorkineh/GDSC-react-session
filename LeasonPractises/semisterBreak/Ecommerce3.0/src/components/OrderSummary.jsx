@@ -28,9 +28,11 @@ export default function OrderSummary({orders}){
                     <td>{totalCost()}</td>
                 </tr>
             </table>
-            <NavLink to = {"/confirm"} className={({ isActive, isPending }) => isPending ? "pending" : isActive ? "active" : ""} state={{data:"name"}}>
-                Continue to checkout
-            </NavLink>
+            <div className="checkOutButtonRegin">
+                <NavLink to = {"/confirm"} className= "checkoutButton" state={{data:"name"}}>
+                    Continue to checkout
+                </NavLink>
+            </div>
         </div>
     );
 }
