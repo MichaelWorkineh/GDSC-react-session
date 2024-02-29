@@ -1,9 +1,6 @@
+import './App.css'
 import image from './download.jpg'
-import './index.css'
-
-
 function App() {
-
   return (
     <>
       <div className="bg-gradient-to-r from-blue-400 to-purple-500">
@@ -32,7 +29,7 @@ function App() {
       </div>       
   </div>
     </>
-  )
+    )
 }
 
-export default App
+export default App();
